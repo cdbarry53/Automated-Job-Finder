@@ -17,22 +17,17 @@ Job Search: Search jobs on Adzuna based on job titles and locations.
 Job Ranking: The application ranks the jobs based on the similarity between the job descriptions and the uploaded resume.
 Downloadable Results: Users can download the matched job results as an Excel file with clickable links to the job postings.
 Installation
+
 Clone the Repository
-bash
-Copy code
 git clone https://github.com/cdbarry53/job-matching-app.git
 cd job-matching-app
 Install the Required Packages
-Ensure you have Python installed. Then install the required packages by running:
 
-bash
-Copy code
+Ensure you have Python installed. Then install the required packages by running:
 pip install -r requirements.txt
 Create Uploads Directory
-Create a directory named uploads in the project root to store uploaded resumes.
 
-bash
-Copy code
+Create a directory named uploads in the project root to store uploaded resumes.
 mkdir uploads
 Set Up API Keys
 Obtain your API key for Adzuna. Replace the placeholder keys in the app.py script with your own API keys. This is found on lines 93 and 94.
@@ -42,10 +37,8 @@ On line 166, complete the desired output path of the Excel spreadsheet.
 
 Run the Application
 Start the Flask application by running:
-
-bash
-Copy code
 python app.py
+
 Access the Application
 Open your web browser and navigate to http://127.0.0.1:5000/.
 
