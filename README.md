@@ -11,7 +11,7 @@ Downloadable Results: Users can download the matched job results as an Excel fil
 Installation
 Clone the Repository
 bash
-git clone https://github.com/your-username/job-matching-app.git
+git clone https://github.com/cdbarry53/job-matching-app.git
 cd job-matching-app
 
 Install the Required Packages Ensure you have Python installed. Then install the required packages by running:
