@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Finder Results</title>
+</head>
+<body>
+    <h1>Job Results</h1>
+    <table border="1">
+        <tr>
+            <th>Title</th>
+            <th>Company</th>
+            <th>Location</th>
+            <th>Salary Min</th>
+            <th>Salary Max</th>
+            <th>Salary Average</th>
+            <th>Description</th>
+            <th>URL</th>
+        </tr>
+        {% for job in jobs %}
+        <tr>
+            <td>{{ job['Title'] }}</td>
+            <td>{{ job['Company'] }}</td>
+            <td>{{ job['Location'] }}</td>
+            <td>{{ job['Salary Min'] }}</td>
+            <td>{{ job['Salary Max'] }}</td>
+            <td>{{ job['Salary Average'] }}</td>
+            <td>{{ job['Description'] }}</td>
+            <td><a href="{{ job['URL'] }}">Job Link</a></td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>

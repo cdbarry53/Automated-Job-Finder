@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Finder</title>
+</head>
+<body>
+    <h1>Upload Your Resume</h1>
+    <form method="POST" action="/" enctype="multipart/form-data">
+        <label for="resume">Resume (.docx):</label>
+        <input type="file" name="resume" id="resume" required>
+        <br><br>
+        <label for="salary_min">Minimum Salary:</label>
+        <input type="number" name="salary_min" id="salary_min" value="90000">
+        <br><br>
+        <label for="location">Location:</label>
+        <input type="text" name="location" id="location">
+        <br><br>
+        <label for="job_title">Job Title:</label>
+        <input type="text" name="job_title" id="job_title">
+        <br><br>
+        <label for="remote">Remote:</label>
+        <input type="checkbox" name="remote" id="remote" checked>
+        <br><br>
+        <input type="submit" value="Find Jobs">
+    </form>
+</body>
+</html>
