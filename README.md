@@ -46,19 +46,7 @@ How to Use
 Upload Your Resume: On the main page, upload your resume in .docx format.
 Enter Job Details: Enter the desired job title(s), location, and minimum salary. You can also specify whether you want to search for remote jobs only.
 View and Download Results: After submission, you’ll be redirected to the results page where you can view matched jobs. The results are automatically exported to an Excel file in the path you configured.
-Directory Structure
-php
-Copy code
-job-matching-app/
-│
-├── app.py                # Main application script
-├── requirements.txt      # Python dependencies
-├── uploads/              # Directory for storing uploaded resumes
-├── templates/            # HTML templates for the web pages
-│   ├── index.html        # Main page template
-│   ├── results.html      # Results page template
-│
-└── static/               # Static files (e.g., CSS, JavaScript)
+
 API Integration
 Adzuna API: Used to fetch job listings based on the job title, location, and salary. The API responses are processed to retrieve relevant job details.
 Issues and Troubleshooting
